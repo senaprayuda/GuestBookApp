@@ -1,0 +1,93 @@
+﻿html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 60%;
+    font-family: 'Segoe UI', 'Times New Roman', 'Halvetica', 'sans-serif';
+    font-size: 10pt;
+    background-color: lightgray;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+    left: 10%;
+}
+
+#header {
+    padding: 8px;
+    width: 80%;
+    background-color: #4b6c9e;
+    color: white;
+}
+
+#content {
+    width: 80%;
+    padding: 8px;
+    padding-bottom: 4em;
+    background-color: white;
+}
+
+#footer {
+    width: 80%;
+    height: 2em;
+    padding: 8px;
+    margin-top: -2em;
+    background-color: lightgray;
+}
+
+.head {
+    background-color: #0ff;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.grid th, grid td {
+    border: 1px solid #C0C0C0;
+    padding: 10px;
+}
+
+.alt {
+    background-color: #E8E8E8;
+    color: #000;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.button1 {
+    background-color: #E7E7E7;
+    border: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
